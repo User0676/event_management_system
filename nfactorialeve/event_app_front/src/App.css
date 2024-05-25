@@ -1,0 +1,47 @@
+
+.container {
+  margin: 20px;
+  color:rgb(0,0,0);
+}
+
+.title {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color:rgb(0,0,0);
+}
+
+.event-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+
+.event-item {
+  background: rgb(204,255,204);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 200px;
+}
+
+.event-item img {
+  width: 100%;
+  height: auto;
+}
+
+.event-info {
+  padding: 15px;
+}
+
+.event-title {
+  font-size: 1.2em;
+  margin: 0 0 10px;
+}
+
+.event-description,
+.event-location,
+.event-date {
+  font-size: 0.9em;
+  margin: 5px 0;
+}
